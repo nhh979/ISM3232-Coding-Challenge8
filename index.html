@@ -11,9 +11,11 @@
             <label for="registrantName">Name: </label>
             <input type="text" name="registrantName" id="registrantName"><br>
             <br>
+
             <label for="registrantEmail">Email: </label>
             <input type="text" name="registrantEmail" id="registrantEmail"><br>
             <br>
+
             <label for="eventDate">Date: </label>
             <select name="eventDate" id="eventDate">
                 <option value="" disabled selected>Select event date</option>
@@ -28,7 +30,7 @@
             </select><br>
             
             <br>
-            Meal Preference:   <br>
+            <b>Meal Preference:</b>   <br>
             <input type="checkbox" name="mealPreference1" id="mealPreference1" value="Vegetarian">
             <label for="mealPreference1">Vegetarian</label><br>
             <input type="checkbox" name="mealPreference2" id="mealPreference2" value="Non-Vegetarian">
@@ -45,6 +47,7 @@
             <br>
             <input type="submit" value="Submit">
         </form>
+
         <div id="registrationSummary"></div> <!--Display the feedback here after submission-->
     
         <script src="script.js"></script>

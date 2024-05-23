@@ -1,0 +1,3 @@
+# Coding Challenge 8
+
+In this project, we create a simple event registration form that gathers user's information including name, email, event date, and meal preference . We learn to create basic HTML structure to define the **form** elements and display area for feedback. We then implement the form with **input fields**, including *text input*, *dropdown* and *checkbox*, and a **submit button** to collect user information. Finally, we utilize JavaSciprt to handle form submission, validate input fields and update the webpage with the submitted registration.
